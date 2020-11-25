@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GetUserInfo</string>
+    <string name="get_info">Get Info</string>
+    <string name="information">Information</string>
+</resources>
