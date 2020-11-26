@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">GetUserInfo</string>
-    <string name="get_info">Get Info</string>
+    <string name="app_name">Get User Information</string>
+    <string name="get_info">Get Info by HMS</string>
     <string name="information">Information</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="loggedout">Logged Out</string>
+    <string name="wait">Please wait!</string>
 </resources>

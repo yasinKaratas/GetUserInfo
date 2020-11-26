@@ -1,2 +1,2 @@
-# Get User Info
-Gets user information from mobile device by HMS
+# Get User Information
+Gets user information from Huawei mobile device by HMS

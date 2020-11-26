@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.getuserinfo"
-        minSdkVersion 29
+        minSdkVersion 27
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -18,10 +18,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('GetUserInfo.jks')
-            keyAlias 'getuserinfolast'
-            keyPassword '******'
-            storePassword '******'
+            storeFile file('GetUserInfoHMS.jks')
+            keyAlias 'getuserinfo'
+            keyPassword '1111aaaa'
+            storePassword '1111aaaa'
             v1SigningEnabled true
             v2SigningEnabled true
         }
@@ -50,6 +50,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.huawei.agconnect:agconnect-core:1.4.1.300'
+    implementation 'org.jetbrains:annotations:15.0'
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
